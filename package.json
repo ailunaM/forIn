@@ -7,6 +7,7 @@
     "build": "webpack --mode production",
     "lint": "eslint .",
     "prepare": "husky",
+    "type": "module",
     "lint:fix": "eslint . --fix",
     "test": "jest",
     "coverage": "jest --coverage",
